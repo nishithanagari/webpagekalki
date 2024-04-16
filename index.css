@@ -1,0 +1,1142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+overflow-x:hidden;
+
+}
+
+#nav1{
+    width: 100%;
+    height:30px;
+    background-color: black;
+    /* position: fixed; */
+    
+}
+#subnav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#marqueenav{
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav2{
+    border: 1px solid #c4b6b6;
+    /* width: 100%; */
+    height: 90px;
+}
+#subnav2{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+}
+#nav2part1{
+    /* border: 2px solid; */
+    height: 30px;
+    width: 370px;
+    margin-top: 25px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    list-style: none;
+    font-weight:bold ;
+    
+}
+
+
+#nav2part1 li button{
+width: 95px;
+height: 40px;
+background-color: transparent;
+border: transparent;
+font-weight: bold ;
+font-size: 17px;
+cursor: pointer;
+
+}
+#nav2part1 li button:hover{
+    background-color: black;
+    color: white;
+}
+#nav2part1 #women{
+    background-color: black;
+    color: white;
+}
+#luxe{
+    color: brown;
+}
+
+#kalki{
+/* border: 2px solid red; */
+width:200px;
+margin-left: 550px;
+margin-top: -35px;
+
+}
+
+#nav2part3{
+    /* border: 2px solid red; */
+    width: 490px;
+    height: 40px;
+    margin-left: 820px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#searchbar{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 250px;
+    font-size: 10px;
+    background-color: rgb(248, 245, 236);
+}
+
+#searchicon{
+    border: 2px solid black;
+   
+    width:40px ;
+    height:28px ;
+    position:absolute;
+    right: 275px;
+    top: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    
+    font-size: 18px;
+    margin-top: -10px;
+    cursor: pointer;
+
+}
+#whatsapp{
+    /* border: 2px solid black; */
+    width:30px ;
+    height:28px ;
+    font-size: 30px;
+    margin-top: -10px;
+}
+#shopping{
+    width:30px ;
+    height:28px ;
+    font-size: 30px;
+    margin-top: -10px;
+}
+#user{
+    width:30px ;
+    height:28px ;
+    font-size: 30px;
+    margin-top: -10px;
+}
+#like{
+    width:30px ;
+    height:28px ;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+#nav3{
+    border: 1px solid #c4b6b6;
+    /* width: 100%; */
+    height: 60px;
+}
+#subnav3{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items:hover{
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+#sale button{
+color: white;
+background-color: brown;
+width: 45px;
+height: 25px;
+}
+#sale button:hover{
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+#picture{
+        /* border: 1px solid #c4b6b6; */
+        margin-left:10px;
+        margin-top: 30px;
+        /* width: 100%; */
+        height: 1000px;
+    }
+     
+   
+   
+   
+    #salesnav{
+        /* border: 1px solid #c4b6b6; */
+        background-image: url(./pinkbgimg.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 98%;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    bottom: 400px;
+}
+#subsalesnav{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#line h2{
+    /* border: 2px solid; */
+    height:inherit ;
+}
+#discription{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Futura;
+}
+
+#tc{
+    /* border: 2px solid; */
+    width: 50px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 20px;
+    left: 1280px;
+}
+
+
+
+#imagespart1{
+    /* width: 70%; */
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 950px;
+    
+}
+
+#content{
+    /* border: 2px solid blue; */
+    width: 1400px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1260px;
+    left: 30px;
+}
+#image1{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+}
+#image1 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: 50px;
+    color: #ffff;
+}
+#image1 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -25px;
+    margin-left: 65px;
+}
+
+    
+#image2{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+}
+#image2 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 30px;
+    color: #ffff;
+}
+#image2 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+
+#image3{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 60px;
+    margin-top: -100px;
+}
+#image3 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: 50px;
+    color: #ffff;
+}
+#image3 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    /* margin-top: -5px; */
+    margin-left: 65px;
+}
+#subimage3{
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: lighter;
+}
+
+
+
+#image4{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+    margin-right: 100px;
+    margin-top: -40px;
+}
+#image4 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 38px;
+    color: #ffff;
+}
+#image4 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -25px;
+    margin-left: 65px;
+}
+#subimage4{
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: lighter;
+}
+
+
+#heading {
+    /* border: 2px solid; */
+    height: 60px;
+    width: 100%;
+    margin-top: 130px;
+    
+}
+#subhead p{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 20%;
+    font-weight: 500;
+    margin: auto;
+    font-size: 26px;
+}
+
+
+
+
+
+#imagespart2{
+    width: 96%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1480px;
+    
+}
+
+#content1{
+    /* border: 2px solid blue; */
+    width: 1400px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1770px;
+    left: 70px;
+}
+#image5{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 80px;
+    margin-top: -50px;
+}
+#image5 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: 60px;
+    color: #ffff;
+}
+#image5 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -25px;
+    margin-left: 60px;
+}
+#subimage5{
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: lighter;
+}
+
+    
+#image6{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+    margin-top: -40px;
+}
+#image6 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 30px;
+    color: #ffff;
+}
+#image6 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+#subimage6{
+    font-size: 18px;
+    padding-left: 48px;
+    font-weight: lighter;
+}
+
+#image7{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 100px;
+    margin-top: -35px;
+    /* margin-right: 20px; */
+}
+#image7 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: 60px;
+    color: #ffff;
+}
+#image7 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -5px;
+    margin-left: 75px;
+}
+#subimage7{
+    font-size: 18px;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+
+
+
+#image8{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+    margin-top: -35px;
+    margin-right: 150px;
+}
+#image8 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 38px;
+    color: #ffff;
+}
+#image8 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -25px;
+    margin-left: 65px;
+}
+#subimage8{
+    font-size: 18px;
+    padding-left: 60px;
+    font-weight: lighter;
+}
+
+
+
+#picture2{
+     /* border: 1px solid #c4b6b6; */
+     margin-left: 10px;
+     margin-top: 530px;
+     /* width: 100%; */
+     height: 1000px;
+}
+
+
+
+
+#heading1{
+    /* border: 2px solid; */
+    height: 60px;
+    width: 98%;
+    margin-left: 30px;
+    margin-top:-430px;
+    
+}
+#subhead1 p{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 20%;
+    font-weight: 500;
+    margin: auto;
+    font-size: 26px;
+}
+
+
+
+
+
+
+#imagespart3{
+    /* width: 98%; */
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2650px;
+    
+}
+
+#content2{
+    /* border: 2px solid blue; */
+    width: 1300px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2900px;
+    left: 40px;
+}
+#image9{
+    /* border: 2px solid red; */
+    width: 450px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 10px
+}
+#image9 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 20px;
+    color: #ffff;
+}
+#image9 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -55px;
+    margin-left: 40px;
+}
+#subimage9{
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: lighter;
+}
+
+    
+#image10{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 100px;
+    margin-right: 120px;
+
+    
+}
+#image10 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 24px;
+    padding-left: 20px;
+    color: #ffff;
+}
+#image10 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+#subimage10{
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: lighter;
+}
+
+#image11{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+    margin-right: 120px;
+}
+#image11 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: -60px;
+    color: #ffff;
+}
+#image11 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -5px;
+    margin-left: 30px;
+}
+#subimage11{
+    font-size: 18px;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+
+
+#image12{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+    margin-top: 35px;
+    margin-right: 20px
+}
+#image12 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 38px;
+    color: #ffff;
+}
+#image12 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    /* margin-top: -25px; */
+    margin-left: 45px;
+}
+#subimage12{
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+
+
+
+#heading2{
+    /* border: 2px solid; */
+    height: 60px;
+    width: 96%;
+    margin-left: 30px;
+    margin-top:480px;
+    
+}
+#subhead2 p{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 30%;
+    font-weight: 500;
+    margin: auto;
+    font-size: 26px;
+}
+
+
+#picture3{
+    /* border: 1px solid #c4b6b6; */
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 1000px;
+}
+
+
+
+
+#imagespart4{
+    width: 96%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 3780px;
+    
+}
+
+#content3{
+    /* border: 2px solid blue; */
+    width: 1250px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 4050px;
+    left: 70px;
+}
+#image13{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+}
+#image13 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: 30px;
+    color: #ffff;
+}
+#image13 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -20px;
+    margin-left: 55px;
+}
+#subimage13{
+    font-size: 18px;
+    padding-left: 60px;
+    font-weight: lighter;
+}
+
+    
+#image14{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+}
+#image14 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 60px;
+    color: #ffff;
+}
+#image14 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -25px;
+    margin-left: 80px;
+}
+#subimage14{
+    font-size: 18px;
+    padding-left: 45px;
+    font-weight: lighter;
+}
+
+#image15{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+}
+#image15 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 28px;
+    padding-left: 60px;
+    color: #ffff;
+}
+#image15 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -5px;
+    margin-left: 80px;
+}
+#subimage15{
+    font-size: 18px;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+#image16{
+    /* border: 2px solid red; */
+    width: 260px;
+    height: 100px;
+}
+#image16 h1{
+    
+    font-family: "Noto Serif Display";
+    font-size: 26px;
+    padding-left: 80px;
+    color: #ffff;
+}
+#image16 button{
+    border: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    background-color: #ffff;
+    color: black;
+    margin-top: -5px;
+    margin-left: 65px;
+}
+#subimage16{
+    font-size: 18px;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+
+
+
+
+#booking{
+    /* border: 2px solid red; */
+    height: 300px;
+    /* width: 100%; */
+    margin-top: 80px;
+    /* font-weight: 500; */
+    /* margin: auto; */
+    /* display: flex;
+    justify-content:space-between;
+    align-items: center; */
+}
+#appointment{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 98%;
+    margin-top: 600px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url("https://newcdn.kalkifashion.com/media/wysiwyg/home-video-section-bgdddfdfdsf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#videocall{
+    /* border: 2px solid blue; */
+    height: inherit;
+    width: 50%;
+}
+#dress{
+    border-left: 1px solid rgb(206, 206, 208);
+    height: inherit;
+    width: 50%;
+}
+#videocall svg{
+    /* border: 2px solid blue; */
+    margin-top: 60px;
+    margin-left: 320px;
+}
+#videocall1{
+    /* border: 2px solid blue; */
+    height: 30px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 230px;
+    font-size: 31px;
+    color: #781710;
+}
+#videocall2{
+    /* border: 2px solid blue; */
+    height: 30px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 270px;
+    font-size: 14px;
+    color: #781710;
+}
+#appointment button{
+    height: 45px;
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 260px;
+    background-color: #ffff;
+    border: none;
+}
+
+#dress svg{
+    /* border: 2px solid blue; */
+    margin-top: 60px;
+    margin-left: 320px;
+}
+#dress1{
+    /* border: 2px solid blue; */
+    height: 30px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 240px;
+    font-size: 31px;
+    color: #781710;
+}
+#dress2{
+    /* border: 2px solid blue; */
+    height: 30px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 180px;
+    font-size: 14px;
+    color: #781710;
+}
+
+
+
+#followinsta{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+
+
+#footer1{
+    /* border: 2px solid red; */
+    /* width: 90%; */
+    height: 1100px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+#footer1 h1{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+#footer p{
+    font-size: 15px;
+    font-family: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+    font-weight: 700;
+
+}
+
+
+
+#footer2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: -380px;
+    background-color: #f7f7f7;
+    
+   
+
+}
+
+#subfooter2{
+    /* border: 2px solid green; */
+    width: 89%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    font-family: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+#one{
+    /* border: 2px solid; */
+    height: 500px;
+    /* margin-top: -40px; */
+    
+    
+
+}
+#two{
+    /* border: 2px solid; */
+    height: 500px;
+    /* margin-top: -40px; */
+    
+    
+
+}
+#three{
+    /* border: 2px solid; */
+    height: 500px;
+    /* margin-top: -40px; */
+    
+    
+
+}
+#four{
+    /* border: 2px solid; */
+    height: 500px;
+    /* margin-top: -20px; */
+    
+    
+
+}
+#details{
+    /* border: 2px solid blue; */
+    width: 400px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+
+/* #getin{
+border: 2px solid green;
+} */
+#email{
+    /* border: 2px solid green; */
+    width: 180px;
+}
+
+#footer3{
+    /* width: 100%; */
+    height: 330px;
+    /* margin-left: 10px; */
+    margin-top: -40px;
+    background-color: #f7f7f7;
+}
+
+#subfooter3{
+    width: 70%;
+    margin-left: 120px;
+}
+
+#footer4{
+    /* width: 100%; */
+    height: 100px;
+    margin-left: 10px;
+    /* margin-top: 5px; */
+    background-color: #f7f7f7;
+}
+#subfooter4{
+width: 70%;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    font-family: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+
+    #footer5{
+    /* width: 100%; */
+    height: 80px;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    background-color: #f7f7f7; 
+} 
+
+#subfooter5{
+    width: 70%;
+        margin-left: 200px;
+        padding-top: 40px;
+        font-family: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+#subfooter5 img{
+    padding-top: 50px;
+}
+
+#footer6{
+    width: 100%;
+    height: 80px;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    background-color: #f7f7f7; 
+} 
+
+#subfooter6{
+    width: 70%;
+        margin-left: 200px;
+        padding-top: 40px;
+        text-align: end;
+        font-family: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+
