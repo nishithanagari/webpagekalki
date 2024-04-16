@@ -108,7 +108,7 @@ margin-top: -35px;
     width:40px ;
     height:28px ;
     position:absolute;
-    right: 380px;
+    right: 370px;
     top: 76px;
     display: flex;
     align-items: center;
@@ -256,7 +256,7 @@ height: 25px;
     align-items: center;
     position: absolute;
     top: 1260px;
-    left: 30px;
+    left: 40px;
 }
 #image1{
     /* border: 2px solid red; */
@@ -267,7 +267,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 28px;
-    padding-left: 50px;
+    padding-left: 60px;
     color: #ffff;
 }
 #image1 button{
@@ -278,7 +278,7 @@ height: 25px;
     background-color: #ffff;
     color: black;
     margin-top: -25px;
-    margin-left: 65px;
+    margin-left: 75px;
 }
 
     
@@ -291,7 +291,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 26px;
-    padding-left: 30px;
+    padding-left: 50px;
     color: #ffff;
 }
 #image2 button{
@@ -302,7 +302,7 @@ height: 25px;
     background-color: #ffff;
     color: black;
     margin-top: -20px;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 
@@ -316,7 +316,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 28px;
-    padding-left: 50px;
+    padding-left: 80px;
     color: #ffff;
 }
 #image3 button{
@@ -327,7 +327,7 @@ height: 25px;
     background-color: #ffff;
     color: black;
     /* margin-top: -5px; */
-    margin-left: 65px;
+    margin-left: 85px;
 }
 #subimage3{
     font-size: 18px;
@@ -348,7 +348,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 26px;
-    padding-left: 38px;
+    padding-left: 55px;
     color: #ffff;
 }
 #image4 button{
@@ -359,7 +359,7 @@ height: 25px;
     background-color: #ffff;
     color: black;
     margin-top: -25px;
-    margin-left: 65px;
+    margin-left: 83px;
 }
 #subimage4{
     font-size: 18px;
