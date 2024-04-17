@@ -204,7 +204,7 @@ height: 25px;
     height: 90px;
     margin: auto;
     position: relative;
-    bottom: 400px;
+    bottom: 430px;
 }
 #subsalesnav{
     /* border: 2px solid red; */
@@ -243,7 +243,7 @@ height: 25px;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 930px;
+    top: 910px;
     
 }
 
@@ -256,7 +256,7 @@ height: 25px;
     align-items: center;
     position: absolute;
     top: 1260px;
-    left: 60px;
+    left: 80px;
 }
 #image1{
     /* border: 2px solid red; */
@@ -267,7 +267,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 28px;
-    padding-left: 60px;
+    padding-left: 70px;
     color: #ffff;
 }
 #image1 button{
@@ -291,7 +291,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 26px;
-    padding-left: 50px;
+    padding-left: 70px;
     color: #ffff;
 }
 #image2 button{
@@ -316,7 +316,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 28px;
-    padding-left: 80px;
+    padding-left: 85px;
     color: #ffff;
 }
 #image3 button{
@@ -348,7 +348,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 26px;
-    padding-left: 55px;
+    padding-left: 65px;
     color: #ffff;
 }
 #image4 button{
