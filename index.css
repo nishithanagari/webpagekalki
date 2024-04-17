@@ -512,7 +512,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 26px;
-    padding-left: 58px;
+    padding-left: 38px;
     color: #ffff;
 }
 #image8 button{
@@ -523,11 +523,11 @@ height: 25px;
     background-color: #ffff;
     color: black;
     margin-top: -25px;
-    margin-left: 85px;
+    margin-left: 65px;
 }
 #subimage8{
     font-size: 18px;
-    padding-left: 80px;
+/*     padding-left: 60px; */
     font-weight: lighter;
 }
 
@@ -661,7 +661,7 @@ height: 25px;
     
     font-family: "Noto Serif Display";
     font-size: 28px;
-    padding-left: -50px;
+    padding-left: -30px;
     color: #ffff;
 }
 #image11 button{
@@ -672,11 +672,11 @@ height: 25px;
     background-color: #ffff;
     color: black;
     margin-top: -5px;
-    margin-left: 60px;
+    margin-left: 70px;
 }
 #subimage11{
     font-size: 18px;
-    padding-left: 70px;
+    padding-left: 80px;
     font-weight: lighter;
 }
 
